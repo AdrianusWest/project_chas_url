@@ -8,10 +8,5 @@ def test_check_with_urls_and_str():
                        'hkjhkft', 'jgkkd', '576tfh']) == RESULT_DICT
 
 
-def test_check_with_urls():
-    assert check_urls(['https://ru.hexlet.io/',
-                       'https://mail.ru']) == RESULT_DICT
-
-
 def test_check_without_urls_():
     assert check_urls(['hkjhkft', 'jgkkd', '576tfh']) == 'No URL to process.'
