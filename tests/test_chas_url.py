@@ -9,7 +9,8 @@ def test_check_with_urls_and_str():
 
 
 def test_check_with_urls():
-    assert check_urls(['https://ru.hexlet.io/', 'https://mail.ru']) == RESULT_DICT
+    assert check_urls(['https://ru.hexlet.io/',
+                       'https://mail.ru']) == RESULT_DICT
 
 
 def test_check_without_urls_():
