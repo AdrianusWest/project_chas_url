@@ -18,4 +18,7 @@ def check_urls(list_of_all_urls: list):
     for valid_url in list_of_valid_urls:
         poll_dict[valid_url] = url_poll(valid_url)
     print(non_validate_strings(list_of_all_urls))
-    return formatting(poll_dict)
+    if poll_dict:
+        return formatting(poll_dict)
+    else:
+        return f'No URL to process.'
