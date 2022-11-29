@@ -1,0 +1,8 @@
+.coverage
+coverage.xml
+dist
+.idea
+.pytest_cache
+.venv
+chas_url/__pycache__
+chas_url/scripts/__pycache__
